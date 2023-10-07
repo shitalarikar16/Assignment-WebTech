@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .login-box {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 350px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #1877f2;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form button {
+            width: 100%;
+            padding: 12px 0;
+            background-color: #1877f2;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #1466c7;
+        }
+
+        input[type="button"] {
+            border: none;
+            background-color: green;
+            height: 40px;
+            color: black;
+            font-size: 15px;
+            border-radius: 10px;
+            margin-top: 10px;
+            transition-duration: 1s;
+            width: 70%;
+            cursor: pointer;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #1877f2;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: royalblue; margin-left: 20px;">Facebook</h1><br><br>
+    <p style="margin-left: 20px;">Connect With Friends and the world around you on Facebook</p>
+
+    <div class="container">
+        <div class="login-box">
+            <form>
+                <input type="text" placeholder="Email or Phone">
+                <input type="password" placeholder="Password">
+                <button type="submit">Log In</button>
+            </form>
+            <p><a href="#">Forgot Password?</a></p>
+            <input type="button" name="Create new account" value="Create new account" style="color: white;">
+        </div>
+    </div>
+</body>
+</html>
